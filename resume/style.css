@@ -1,0 +1,103 @@
+body{
+    background-color: aquamarine;
+    background-attachment: scroll;
+    background-position: top bottom;
+    background-size: contain;
+    font-family: "Roboto", sans-serif;
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 10px 40px;
+    box-shadow: 0px 0px 70px 0px #000;
+}
+.parent{
+    display: flex;
+    justify-content: space-between;
+}
+
+.child1 {
+    line-height: 1.5; /* Increases space between lines */
+}
+.child1 span {
+    margin-bottom: 10px; /* Adds space between each span */
+    display: block; /* Makes each span occupy its own line */
+}
+.child1 br {
+    margin-bottom: 10px; /* Adds space after each line break */
+}
+
+.child2 {
+    width: 210px; /* Set the width to the same as the image */
+    height: 210px; /* Set the height to create a circle */
+    border-radius: 50%; /* Make the div circular */
+    overflow: hidden; /* Ensure the image does not overflow */
+    display: flex; /* Center the image */
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    background-color: #f0f0f0; /* Optional: background color for the circle */
+}
+
+.child2 img {
+    width: 100%; /* Make the image fill the container */
+    height: auto; /* Maintain the aspect ratio */
+    margin-top: 45px;
+}
+
+h1{
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+.header-para{
+    padding: 10px 0 40px;
+    line-height: 1.5;
+}
+h2{
+    background-color: #ccc;
+    padding: 8px 5px;
+    margin-bottom: 10px;
+    border-bottom: solid 1px #000;
+}
+p{
+    margin-bottom: 10px;
+}
+
+.section{
+    margin-bottom: 20px;
+}
+
+.table-style-1{
+    width: 100%;
+}
+
+.table-style-1 tr td{
+    border: solid 1px #ccc;
+    padding: 10px 20px;
+}
+
+.table-style-1 tr th{
+    border: solid 1px #ccc;
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+}
+.list-style-1 li{
+    list-style: none;
+    padding-left: 30px;
+    line-height: 2.0;
+}
+
+.list-style-1 li:before{
+    content: "";
+    display: inline-block;
+    background-color: #3f513f;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: -23px;
+    position: relative;
+    top: -2px;
+}
+
